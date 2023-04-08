@@ -108,4 +108,11 @@ so we start using EC2 For training:
 
 ![5.PNG](/Screenshots/ec2/5.PNG)  
 
-Then we clone this repo and run the ``python data.py`` to download the dataset; after that launch the training job with ``python code/ec2train.py`` after modifying the args parameters in the file, and let the model train for a long time.
+Then we clone this repo and run these commmand lines to install neccesary packages:
+
+```
+pip install smdebug torch torchvision tqdm ipywidgets bokeh
+apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+pip install easydev colormap colorgram.py extcolors
+```
+then run the ``python data.py`` to download the dataset, after that launch the training job with ``python code/ec2train.py`` after modifying the args parameters in the file, and let the model train for a long time.
