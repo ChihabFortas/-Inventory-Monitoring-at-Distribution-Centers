@@ -1,0 +1,7 @@
+dataset/
+<<<<<<< HEAD
+__pycache_/
+=======
+__pycache__/
+>>>>>>> e51c8aa (fixing training code and calculating accuracy)
+.ipynb_checkpoints/
